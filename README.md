@@ -35,23 +35,21 @@ pip install -r requirements.txt
 
 ## Usage
 Run the main application file:
-python your_main_file.py
-Replace your_main_file.py with the actual main script filename.
+python app.py
 
 ## Project Structure
 student-registration-system/
 │
 ├── pictures/                # Images used in the project (logos, icons)
-├── main.py                  # Module containing database logic (e.g. registration_system)
-├── your_main_file.py        # Main Tkinter application file with GUI
+├── main.py                  # Module containing database logic (e.g. RegistrationSystem)
+├── app.py                   # Main Tkinter application file with GUI
 ├── requirements.txt         # Python dependencies
 └── README.md                # This file
-
 
 ## Notes
 Ensure the images used in your code exist in the pictures folder.
 
-The main.py module should provide functions like register_student, search_student, update_student, and delete_student.
+The `main.py` module provides functions like `register_student`, `search_student`, `update_student`, and `delete_student`.
 
 The project is intended for local use with a GUI interface.
 
